@@ -1,0 +1,7 @@
+<mat-list role="list">
+    <mat-list-item 
+    style="color: black;"
+    *ngFor="let user of users"
+    (click)="selectUser(user)" 
+    role="listitem">{{user.name}}</mat-list-item>
+</mat-list>

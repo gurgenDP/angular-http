@@ -1,0 +1,5 @@
+<div class="container">
+    <div *ngFor="let photo of photos" class="image">
+        <img [src]="photo.thumbnailUrl" (click)="photoSelected(photo)">
+    </div>
+</div>
